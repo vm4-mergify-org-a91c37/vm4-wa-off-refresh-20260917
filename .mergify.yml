@@ -1,7 +1,0 @@
-pull_request_rules:
-  - name: disabled product refresh sentinel
-    conditions:
-      - author = livastic-vm4-secondary-20260911
-    actions:
-      comment:
-        message: VM4_WA_PRODUCT_OFF_REFRESH_SENTINEL_20260917
