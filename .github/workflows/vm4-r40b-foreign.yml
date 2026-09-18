@@ -1,0 +1,10 @@
+name: VM4 R40B Foreign Workflow ID Sentinel
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  marker:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo VM4_R40B_FOREIGN_WORKFLOW_ID_SENTINEL
